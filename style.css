@@ -1,6 +1,8 @@
 *{
   box-sizing: border-box;
 }
+
+
 .nav-link{
   font-weight: 600;
   margin-right: 10px;
@@ -8,6 +10,11 @@
 }
 
 
+
+*::selection{
+color: white;
+background-color: #c20000;
+}
 .main{
   width: 100%;
   height: calc(100vh-60px);
@@ -36,9 +43,9 @@ min-height: 60px;
 
 
 .hero-section {
-  background-image: url('https://images.unsplash.com/photo-1457276587196-a9d53d84c58b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-image: url('https://iili.io/J4ZtkKB.png');
   background-size: cover;
-  background-position: center;
+  background-position: top;
   width: 100%;
   height: 100%;
   display: flex;
@@ -57,7 +64,7 @@ min-height: 60px;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.74);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .hero-text {
@@ -319,80 +326,99 @@ min-height: 60px;
 }
 
 
-#testimonials{
-  width: 100%;
-  height: 70vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: #be0404;
-  border-top-left-radius: 65px;
-  border-top-right-radius: 65px;
-  box-shadow: -2px -5px 17px 0px #00000087;
-}
 
-.rounded-circle{
-  height: 70px;
-}
-
-.card{
-width: 800px;
-  padding: 5px 30px;
-  border:none;
-  border-radius: 25PX;
-  background-color: #fff;
-  position: relative;
-  left: 100PX;
-}
-
-.testimonials-heading{
+#gallery{
 width: 100%;
-height: 20vh;
+height: fit-content;
 display: flex;
-align-items: center;
 justify-content: center;
-text-align: center;
-margin-bottom: 20px;
+flex-direction: column;
+padding: 50px;
+background: rgb(218, 235, 255);
 
 }
 
-.testimonials-heading h1{
-font-size: 55px;
-font-weight: 700;
-color: #ffffff;
-text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.89);
-text-transform: uppercase;
+.gallery-title{
+text-align: center;
+color: black;
+padding: 20px ;
+}
+
+.image1{
+overflow: hidden;
+height: 300px;
+}
+
+.image2{
+overflow: hidden;
+height: 680px;
+}
+/* Overlay */
+
+.overlay1{
+position: relative;
+background-color: #000000ab;
+opacity: 0;
+height: 100%;
+z-index: 2;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+transition: opacity 0.3s ease-in-out;
+}
+
+.overlay1:hover{
+opacity: 1;
+}
+
+.overlay1 h3{
+text-align: center;
+color: #fff;
+font-size: 35px;
 font-family: "oswald", sans-serif;
 }
-#testimonialSlider{
-width: 1000px;
-display: flex;
-align-items: center;
-justify-content: center;
 
+.overlay1 a{
+text-decoration: none;
+color: #fff;
 }
 
-.carousel-item {
-height: 100%;
+.overlay1 p{
 text-align: center;
+margin-top: 15px;
+font-size: 20px;
+color: #fff;
+text-transform: capitalize;
+font-weight: 400;
 }
 
-.carousel-inner {
-
-border-radius: 25PX;
-}
-
-.carousel-item.card {
-height: 100%;
-}
-
-.user-content p{
-  margin-top:5px;
-  font-size:15px;
+.overlay1 p:hover{
+text-decoration: underline;
 }
 
 
-.ratings i{
-  color:blue;
+.img-gallery1{
+background-image: url("https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp");
+background-size: cover;
+background-clip: border-box;
+background-position: center;
+}
+
+.img-gallery2{
+background-image: url("https://images.unsplash.com/photo-1715271040278-9c6fcd6e669b?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+background-size: cover;
+background-clip: border-box;
+background-position: center;
+}
+
+.img-gallery6{
+background-image: url("https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp");
+}
+
+.image2
+
+
+.gallery-title  h1{
+font-family: "oswald", sans-serif;
 }
