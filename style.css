@@ -195,6 +195,15 @@ min-height: 60px;
   justify-content: center;
   align-items: center;
 }
+
+.page-image{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  /* border: solid 2px black; */
+  box-shadow: 2px 4px 20px 0px ;
+}
 /* .page2-left{
   width: 50%;
   height:100%;
@@ -333,7 +342,7 @@ background-color: #2168BD;
 }
 
 #intersect3 .shape1{
-width: 80%;
+width: 70%;
 }
 
 #Academics{
@@ -426,7 +435,7 @@ cursor: pointer;
 }
 
 .academics-content .content-image:hover{
-border: 1px solid #c20000;
+border: 3px solid #c20000;
 background-color: white;
 color: #c20000;
 }
@@ -443,6 +452,16 @@ text-align: center;
 font-family: "oswald";
 }
 
+.academics-content .content-text p{
+margin-top: 20px;
+font-size: 18px;
+font-weight: 600;
+text-align: center;
+}
+
+a{
+text-decoration: none;
+}
 
 
 
@@ -458,8 +477,15 @@ background-color: #2168BD;
 }
 s
 #intersect4 .shape1{
-width: 80%;
+width: 85%;
 }
+
+#intersect5{
+height: 3vh;
+background-color: #2168BD;
+}
+
+
 
 #gallery{
 width: 100%;
@@ -533,21 +559,24 @@ text-decoration: underline;
 
 
 .img-gallery1{
-background-image: url("https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp");
+background-image: url("https://iili.io/J4ZtkKB.png");
 background-size: cover;
 background-clip: border-box;
 background-position: center;
 }
 
 .img-gallery2{
-background-image: url("https://images.unsplash.com/photo-1715271040278-9c6fcd6e669b?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+background-image: url("https://iili.io/J65aNTB.jpg");
 background-size: cover;
 background-clip: border-box;
 background-position: center;
 }
 
 .img-gallery6{
-background-image: url("https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp");
+background-image: url("https://iili.io/J65aNTB.jpg");
+background-size: cover;
+background-clip: border-box;
+background-position: center;
 }
 
 .image2
@@ -555,4 +584,36 @@ background-image: url("https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.we
 
 .gallery-title  h1{
 font-family: "oswald", sans-serif;
+}
+
+
+.my-5 {
+margin-top: 3rem !important;
+margin-bottom: 2rem;
+}
+
+.mb-5{
+margin-bottom: 2rem;
+}
+
+#back-to-top {
+position: fixed;
+bottom: 20px;
+right: 20px;
+width: 50px;
+height: 50px;
+background-color: #c20000;
+color: #fff;
+border-radius: 5px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 24px;
+text-decoration: none;
+opacity: 0.5;
+transition: opacity 0.3s ease;
+}
+
+#back-to-top:hover {
+opacity: 1;
 }

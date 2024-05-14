@@ -11,3 +11,40 @@
 
 
 
+
+
+.carousel-item.card.user-image {
+  margin-bottom: 20px;
+}
+
+.carousel-item.card.user-content {
+  margin-bottom: 20px;
+}
+
+.carousel-item.card.ratings {
+  margin-top: 20px;
+}
+
+@media (min-width: 576px) {
+ .carousel-item.card {
+    height: auto;
+  }
+}
+
+@media (min-width: 768px) {
+ .carousel-item.card {
+    height: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+ .carousel-item.card {
+    height: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+ .carousel-item.card {
+    height:100%;
+ }
+}
