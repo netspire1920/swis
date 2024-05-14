@@ -96,9 +96,6 @@
 
 
 
-
-
-
 const backToTop = document.getElementById("back-to-top");
 const page2 = document.getElementById("page2");
 
@@ -116,3 +113,9 @@ backToTop.addEventListener("click", () => {
     behavior: "smooth"
   });
 });
+
+
+// const scroll = new LocomotiveScroll({
+//   el: document.querySelector('[data-scroll-container]'),
+//   smooth: true
+// });

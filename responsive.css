@@ -1,4 +1,4 @@
-@media (max-width:500px) {
+/* @media (max-width:500px) {
   .hero-text {
     font-size: 4rem;
   }
@@ -6,7 +6,7 @@
   .hero-cta {
     font-size: 1.6rem;
   }
-}
+} */
 
 /* max-width:1200px */
 @media (max-width:1200px) {
@@ -29,5 +29,49 @@
     font-size: 27px;
   }
 
+
+}
+
+
+/* max-width:500px */
+
+@media (max-width:500px) {
+.hero-text{
+  font-size: 50px;
+  margin-top: -150px;
+
+}
+
+/* Intersection1  */
+#intersect1{
+  height: 6rem;
+}
+
+.shape1 .inner-content h3{
+  font-size: 20px;
+  position: relative;
+  left: 15px;
+}
+
+.shape1 .inner-content{
+  position: relative;
+  left: 0px;
+  width: 90%;
+}
+
+#intersect1 .shape1{
+  width: 65%;
+}
+
+#intersect1 .right {
+  padding-right: 15px;
+
+}
+
+#intersect1 .right-btn{
+  font-size: 15px;
+} 
+
+/* Intersection End  */
 
 }
