@@ -37,8 +37,8 @@
 
 @media (max-width:500px) {
 .hero-text{
-  font-size: 50px;
-  margin-top: -150px;
+  font-size: 45px;
+  margin-top: -180px;
 
 }
 
@@ -73,5 +73,149 @@
 } 
 
 /* Intersection End  */
+
+/* Page2  */
+#page2{
+  height: 700px;
+  max-height: none;
+  padding: 25px 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.row{
+  gap: 25px;
+}
+
+#page2 .heading, #page3 .heading{
+  font-size: 30px;
+}
+
+/* Page3  */
+
+#page3{
+  height: 750px;
+  max-height: none;
+  padding: 25px 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* interesection2 */
+
+#intersect2{
+  height: 5.3rem;
+}
+
+.shape2-inner-content h2{
+  font-size: 16px;
+  text-align: center;
+}
+
+.shape2-inner-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Interesection 2 End */
+
+/* Academics */
+
+#Academics{
+  height: fit-content;
+  max-height: none;
+  padding: 30px 20px;
+}
+
+.academics-title{
+  margin-bottom: 25px;
+}
+
+.academics-content {
+  width: 95%;
+  height: fit-content;
+  flex-direction: column;
+}
+
+.academics-content .academics-left{
+  width: 100%;
+  height: 50%;
+  padding: 20px 20px;
+}
+
+
+.academics-content .vertical-divider {
+  width: 85%;
+  height: 3px;
+  border-radius: 25px;
+  background-color: #000000;
+}
+
+.academics-content .academics-right {
+  width: 100%;
+  height: 50%;
+  padding: 20px 20px;
+
+}
+
+
+.academics-content .content-image {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 45px;
+  color: white;
+  background-color: #c20000;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.academics-content .content-image:hover {
+  border: 3px solid #c20000;
+  background-color: white;
+  color: #c20000;
+}
+
+.academics-content .content-text {
+  width: 100%;
+  height: calc(100% - 150px);
+
+}
+
+.academics-content .content-text h2 {
+  font-size: 40px;
+  text-align: center;
+  font-family: "oswald";
+}
+
+.academics-content .content-text p {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.academics-content .content-text h2{
+  font-size: 30px;
+}
+
+/* Academices End  */
+
+/* Gallery */
+
+#gallery{
+  padding: 25px;
+}
+
+/* Gallery End  */
+
 
 }
