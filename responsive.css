@@ -215,6 +215,12 @@ a {
   padding: 25px;
 }
 
+.gallery-title h1 {
+  font-family: 'Oswald';
+  font-size: 40px;
+  font-weight: 600;
+}
+
 /* Gallery End  */
 
 
