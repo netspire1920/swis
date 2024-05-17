@@ -115,6 +115,15 @@ backToTop.addEventListener("click", () => {
 });
 
 
+
+document.getElementById('btn-lmore').addEventListener('click', function() {
+  const page3Element = document.getElementById('page2');
+  page3Element.scrollIntoView({ behavior: 'smooth' });
+});
+
+
+
+
 // const scroll = new LocomotiveScroll({
 //   el: document.querySelector('[data-scroll-container]'),
 //   smooth: true

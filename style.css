@@ -99,15 +99,21 @@
   text-align: left;
 }
 
+.hero-container h5:hover{
+  color: white;
+  background-color: #be0404;
+}
+
 .hero-container h5{
   color: #be0404;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
 text-align: center;
 padding: 10px;
-border-radius: 25px;
+border-radius: 15px;
 background-color: #E1E1E1;
   width: 35%;
+  transition: all 0.3s ease-in-out;
 }
 
 .hero-container p{

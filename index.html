@@ -36,7 +36,7 @@
 
 <body>
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <nav class="navbar navbar-expand-lg  bg-light fixed-top">
     <div class="container">
       <a class="navbar-brand" href="#"><img src="https://iili.io/JrhP0pp.png" height="45px" alt="Logo" /></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
@@ -76,19 +76,20 @@
   <!-- Navbar End -->
 
   <div class="main" data-scroll-container>
+
     <!-- Hero Section -->
     <div class="section" id="Page1" data-scroll data-scroll-speed="2">
       <section class="hero-section">
         <div class="container hero-container " style="z-index: 99;">
           <div class="row">
             <div class="col-14">
-              <h5>St Willibrords Jr</h5>
+              <h5>St Willibrords Junior College</h5>
               <h1 class="hero-text">Empowering Minds, Nurturing Futures.</h1>
               <p class="hero-subtitle">St Willibrords Junior College in Nallasopara, offers a comprehensive curriculum in science and commerce for 11th and 12th students.
 
               </p>
               <div class="hero-button-section">
-                <button class="animated-button">
+                <button class="animated-button" id="btn-lmore">
                   <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
                     <path
                       d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
@@ -207,16 +208,17 @@
                 style="border-radius: 25px" />
             </div>
             <div class="col-lg-6">
-              <h1 class="heading">What sets us apart?</h1>
+              <h1 class="heading">Empowering Students Through Quality Education</h1>
               <p class="content">
                 At St Willibrords Jr College, we are dedicated in nurturing students not only academically but also
-                personally. With experienced faculty, and practical learning opportunities, we ensure students are
+                personally.
+                </p><p class="content"> With experienced faculty, and practical learning opportunities, we ensure students are
                 well-prepared for their future.
               </p>
-              <p class="content">
+              <!-- <p class="content">
                 Our emphasis on extracurricular activities and community engagement makes us a college that fosters
                 well-rounded individuals ready to succeed in their chosen paths.
-              </p>
+              </p> -->
               <a class="btn right-btn left-btn" href="#">About us</a>
             </div>
           </div>
@@ -255,7 +257,7 @@
                 <h2>Science</h2>
                 <p>
                   Explore the world of science with our comprehensive curriculum covering Physics, Chemistry, Biology,
-                  and Mathematics, etc providing a strong foundation for future academic pursuits.</p>
+                  Mathematics, etc providing a strong foundation for future academic pursuits.</p>
               </div>
             </div>
 
@@ -459,6 +461,9 @@
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <!-- Locomotive js cdn  -->
   <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+
+  <!-- GSAP Cdn  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
   <!-- End -->
   <script src="script.js"></script>
 </body>
