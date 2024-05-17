@@ -8,29 +8,6 @@
   }
 } */
 
-/* max-width:1200px */
-@media (max-width:1200px) {
-
-  /* Page3 */
-  #page3 {
-    height: 65vh;
-  }
-
-  /* Gallery */
-  .image1 {
-    height: 195px;
-  }
-
-  .image2 {
-    height: 500px;
-  }
-
-  .overlay1 h3 {
-    font-size: 27px;
-  }
-
-
-}
 
 
 /* max-width:500px */
@@ -56,11 +33,37 @@ a.nav-link{
   font-size: 25px;
 }
 
+/* hero-section  */
 
+
+.hero-section{
+  justify-content: center;
+}
+
+.hero-container h5{
+  width: 100%;
+  font-size: 15px;
+  display: none;
+}
+
+.hero-container{top: -25px;}
+
+.hero-container p{
+  color: white;
+    font-size: 20px;
+    top: 0px;
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+}
+
+.hero-button-section{
+  justify-content: center;
+}
 
 .hero-text{
-  font-size: 45px;
-  margin-top: -180px;
+  font-size: 35px;
+  text-align: left;
+  margin: 30px 0px;
 
 }
 

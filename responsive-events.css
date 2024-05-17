@@ -28,12 +28,20 @@
         padding: 0;
     }
 
+    #timeline .timeline-movement .timeline-item .timeline-panel.debits .timeline-panel-ul li.img-wraping a img, #timeline .timeline-movement .timeline-item .timeline-panel.credits .timeline-panel-ul li.img-wraping a img{
+      height: 170px;
+    }
+
     #timeline .timeline-movement .timeline-item .timeline-panel.credits .timeline-panel-ul li .causale{
       font-size: 16px;
     }
 
     #timeline .timeline-movement .timeline-item .timeline-panel{
       top:50px
+    }
+
+    #timeline .timeline-movement .timeline-item .timeline-panel.debits .timeline-panel-ul .righting-wrap{
+      padding: 0px;
     }
 
     .btn-21{
