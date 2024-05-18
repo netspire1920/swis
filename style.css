@@ -3,18 +3,12 @@
   /* font-family: "Poppins", Helvetica, sans-serif; */
 }
 
-
-
-
-
-
 *::selection {
   color: white;
   background-color: #c20000;
 }
 
 .main {
-
   margin-top: 60px;
   background-color: aliceblue;
 }
@@ -23,7 +17,6 @@
   width: 100%;
   box-shadow: 0px 0.3px 5px rgba(0, 0, 0, 0.637);
   min-height: 60px;
-
 }
 .nav-link {
   font-weight: 600;
@@ -36,10 +29,10 @@
 }
 
 .active1:hover {
-  color: #2168BD;
+  color: #2168bd;
 }
 
-.nav-btn{
+.nav-btn {
   background-color: #c20000;
   color: #fff;
   border: #c20000 0.5px solid;
@@ -53,11 +46,10 @@
   transition: background-color 0.3s ease;
 }
 
-.nav-btn:hover{
-  background-color: #2168BD;
+.nav-btn:hover {
+  background-color: #2168bd;
   color: white;
 }
-
 
 #Page1 {
   width: 100%;
@@ -67,9 +59,8 @@
   background: black;
 }
 
-
 .hero-section {
-  background-image: url('https://iili.io/J4ZtkKB.png');
+  background-image: url("https://iili.io/J4ZtkKB.png");
   background-size: cover;
   background-position: top;
   width: 100%;
@@ -80,7 +71,6 @@
   padding: 0 2rem;
   position: relative;
   text-align: center;
-
 }
 
 .hero-section::before {
@@ -93,36 +83,36 @@
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-.hero-container{
+.hero-container {
   position: relative;
   top: 15%;
   text-align: left;
 }
 
-.hero-container h5:hover{
+.hero-container h5:hover {
   color: white;
   background-color: #be0404;
 }
 
-.hero-container h5{
+.hero-container h5 {
   color: #be0404;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-text-align: center;
-padding: 10px;
-border-radius: 15px;
-background-color: #E1E1E1;
+  text-align: center;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #e1e1e1;
   width: 35%;
   transition: all 0.3s ease-in-out;
 }
 
-.hero-container p{
+.hero-container p {
   color: white;
   font-size: 19px;
-  
-  font-family: "Poppins",sans-serif;
+
+  font-family: "Poppins", sans-serif;
   text-align: left;
-  }
+}
 
 .hero-text {
   font-size: 50px;
@@ -139,7 +129,7 @@ background-color: #E1E1E1;
   z-index: 1;
 }
 
-.hero-button-section{
+.hero-button-section {
   display: flex;
   justify-content: right;
 }
@@ -236,7 +226,6 @@ background-color: #E1E1E1;
   opacity: 1;
 }
 
-
 /* .hero-cta {
   background-color: #c20000;
   color: #fff;
@@ -253,7 +242,7 @@ background-color: #E1E1E1;
 } */
 
 .hero-cta:hover {
-  background-color: #2168BD;
+  background-color: #2168bd;
   color: #fff;
 }
 
@@ -266,7 +255,7 @@ background-color: #E1E1E1;
 #intersect1 {
   width: 100%;
   height: 9rem;
-  background-color: #2168BD;
+  background-color: #2168bd;
   display: flex;
 }
 
@@ -285,7 +274,6 @@ background-color: #E1E1E1;
   display: flex;
   align-items: center;
   justify-content: end;
-
 }
 
 .shape1 .inner-content {
@@ -296,13 +284,11 @@ background-color: #E1E1E1;
   position: relative;
   left: 50px;
   color: #fff;
-
 }
 
 .shape1 .inner-content h3 {
   font-size: 40px;
   font-family: "Oswald", sans-serif;
-
 }
 
 .right-btn {
@@ -327,21 +313,40 @@ background-color: #E1E1E1;
   border: #ffffff 2.5px solid;
 }
 
-
-
 #page2 {
   width: 100%;
   height: 98vh;
   max-height: 650px;
   display: flex;
   flex-direction: column;
-  --color: #E1E1E1;
-  background-color: #F3F3F3;
-  background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent),
-    linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent);
+  --color: #e1e1e1;
+  background-color: #f3f3f3;
+  background-image: linear-gradient(
+      0deg,
+      transparent 24%,
+      var(--color) 25%,
+      var(--color) 26%,
+      transparent 27%,
+      transparent 74%,
+      var(--color) 75%,
+      var(--color) 76%,
+      transparent 77%,
+      transparent
+    ),
+    linear-gradient(
+      90deg,
+      transparent 24%,
+      var(--color) 25%,
+      var(--color) 26%,
+      transparent 27%,
+      transparent 74%,
+      var(--color) 75%,
+      var(--color) 76%,
+      transparent 77%,
+      transparent
+    );
   background-size: 55px 55px;
 }
-
 
 .page2-title {
   width: 100%;
@@ -380,9 +385,6 @@ background-color: #E1E1E1;
   display: flex;
 } */
 
-
-
-
 #page2 .heading,
 #page3 .heading {
   font-size: 2.5rem;
@@ -393,7 +395,6 @@ background-color: #E1E1E1;
 .content {
   font-size: 20px;
   line-height: 1.5;
-
 }
 
 .left-btn {
@@ -406,8 +407,6 @@ background-color: #E1E1E1;
   display: flex;
   flex-direction: column;
 }
-
-
 
 #intersect2 {
   width: 100%;
@@ -469,25 +468,40 @@ background-color: #E1E1E1;
   color: #c20000;
 }
 
-
-
-
-
-
 #page3 {
   width: 100%;
   height: 98vh;
   max-height: 650px;
   display: flex;
   flex-direction: column;
-  --color: #E1E1E1;
-  background-color: #F3F3F3;
-  background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent),
-    linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent);
-  background-size: 55px 55px
+  --color: #e1e1e1;
+  background-color: #f3f3f3;
+  background-image: linear-gradient(
+      0deg,
+      transparent 24%,
+      var(--color) 25%,
+      var(--color) 26%,
+      transparent 27%,
+      transparent 74%,
+      var(--color) 75%,
+      var(--color) 76%,
+      transparent 77%,
+      transparent
+    ),
+    linear-gradient(
+      90deg,
+      transparent 24%,
+      var(--color) 25%,
+      var(--color) 26%,
+      transparent 27%,
+      transparent 74%,
+      var(--color) 75%,
+      var(--color) 76%,
+      transparent 77%,
+      transparent
+    );
+  background-size: 55px 55px;
 }
-
-
 
 .page3-content {
   width: 100%;
@@ -498,10 +512,9 @@ background-color: #E1E1E1;
   align-items: center;
 }
 
-
 #intersect3 {
   height: 3vh;
-  background-color: #2168BD;
+  background-color: #2168bd;
 }
 
 #intersect3 .shape1 {
@@ -516,11 +529,33 @@ background-color: #E1E1E1;
 
   align-items: center;
   flex-direction: column;
-  --color: #E1E1E1;
-  background-color: #F3F3F3;
-  background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent),
-    linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent);
-  background-size: 55px 55px
+  --color: #e1e1e1;
+  background-color: #f3f3f3;
+  background-image: linear-gradient(
+      0deg,
+      transparent 24%,
+      var(--color) 25%,
+      var(--color) 26%,
+      transparent 27%,
+      transparent 74%,
+      var(--color) 75%,
+      var(--color) 76%,
+      transparent 77%,
+      transparent
+    ),
+    linear-gradient(
+      90deg,
+      transparent 24%,
+      var(--color) 25%,
+      var(--color) 26%,
+      transparent 27%,
+      transparent 74%,
+      var(--color) 75%,
+      var(--color) 76%,
+      transparent 77%,
+      transparent
+    );
+  background-size: 55px 55px;
 }
 
 .academics-title {
@@ -529,14 +564,12 @@ background-color: #E1E1E1;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .academics-title h1 {
   font-size: 45px;
   color: rgb(0, 0, 0);
   font-family: "oswald", sans-serif;
-
 }
 
 .academics-content {
@@ -560,14 +593,12 @@ background-color: #E1E1E1;
   width: 50%;
   height: 100%;
   padding: 30px 40px;
-
 }
 
 .academics-content .academics-left {
   width: 50%;
   height: 100%;
   padding: 30px 40px;
-
 }
 
 .academics-content .content-right {
@@ -576,7 +607,6 @@ background-color: #E1E1E1;
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 .academics-content .content-left {
@@ -585,7 +615,6 @@ background-color: #E1E1E1;
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 .academics-content .content-image {
@@ -611,7 +640,6 @@ background-color: #E1E1E1;
 .academics-content .content-text {
   width: 100%;
   height: calc(100% - 150px);
-
 }
 
 .academics-content .content-text h2 {
@@ -631,17 +659,9 @@ a {
   text-decoration: none;
 }
 
-
-
-
-
-
-
-
-
 #intersect4 {
   height: 3vh;
-  background-color: #2168BD;
+  background-color: #2168bd;
 }
 
 #intersect4 .shape1 {
@@ -650,10 +670,8 @@ a {
 
 #intersect5 {
   height: 3vh;
-  background-color: #2168BD;
+  background-color: #2168bd;
 }
-
-
 
 #gallery {
   width: 100%;
@@ -662,11 +680,33 @@ a {
   justify-content: center;
   flex-direction: column;
   padding: 50px;
-  --color: #E1E1E1;
-  background-color: #F3F3F3;
-  background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent),
-    linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent);
-  background-size: 55px 55px
+  --color: #e1e1e1;
+  background-color: #f3f3f3;
+  background-image: linear-gradient(
+      0deg,
+      transparent 24%,
+      var(--color) 25%,
+      var(--color) 26%,
+      transparent 27%,
+      transparent 74%,
+      var(--color) 75%,
+      var(--color) 76%,
+      transparent 77%,
+      transparent
+    ),
+    linear-gradient(
+      90deg,
+      transparent 24%,
+      var(--color) 25%,
+      var(--color) 26%,
+      transparent 27%,
+      transparent 74%,
+      var(--color) 75%,
+      var(--color) 76%,
+      transparent 77%,
+      transparent
+    );
+  background-size: 55px 55px;
 }
 
 .gallery-title {
@@ -675,8 +715,8 @@ a {
   padding: 30px 0px;
 }
 
-.gallery-title h1{
-  font-family: 'Oswald';
+.gallery-title h1 {
+  font-family: "Oswald";
   font-size: 45px;
   font-weight: 600;
 }
@@ -737,7 +777,6 @@ a {
   text-decoration: underline;
 }
 
-
 .img-gallery1 {
   background-image: url("https://iili.io/J4ZtkKB.png");
   background-size: cover;
@@ -762,7 +801,6 @@ a {
 .image2 .gallery-title h1 {
   font-family: "oswald", sans-serif;
 }
-
 
 .my-5 {
   margin-top: 3rem !important;
