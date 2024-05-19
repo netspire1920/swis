@@ -25,12 +25,15 @@
 }
 a.nav-link{
   margin-right: 0px;
-  padding-bottom: 15px;
+  margin-bottom: 8px;
 }
 
 
 .nav-btn{
-  font-size: 25px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* hero-section  */

@@ -8,7 +8,9 @@
     align-items: center;
     }
 
-    
+    .navbar>.container{
+       padding:0px 8px 0px 15px;
+    }
     .contact-wrap{
         border-bottom-right-radius: 20px;
         border-bottom-left-radius: 20px;
