@@ -319,7 +319,7 @@
   max-height: 650px;
   display: flex;
   flex-direction: column;
-  --color: #e1e1e1;
+  --color: #eceaead7;
   background-color: #f3f3f3;
   background-image: linear-gradient(
       0deg,
@@ -474,7 +474,7 @@
   max-height: 650px;
   display: flex;
   flex-direction: column;
-  --color: #e1e1e1;
+  --color:  #eceaead7;
   background-color: #f3f3f3;
   background-image: linear-gradient(
       0deg,
@@ -529,7 +529,7 @@
 
   align-items: center;
   flex-direction: column;
-  --color: #e1e1e1;
+  --color:  #eceaead7;
   background-color: #f3f3f3;
   background-image: linear-gradient(
       0deg,
@@ -680,7 +680,7 @@ a {
   justify-content: center;
   flex-direction: column;
   padding: 50px;
-  --color: #e1e1e1;
+  --color:  #eceaead7;
   background-color: #f3f3f3;
   background-image: linear-gradient(
       0deg,
@@ -777,6 +777,7 @@ a {
   text-decoration: underline;
 }
 
+
 .img-gallery1 {
   background-image: url("https://iili.io/J4ZtkKB.png");
   background-size: cover;
@@ -817,6 +818,7 @@ a {
   right: 20px;
   width: 50px;
   height: 50px;
+  z-index: 9999;
   background-color: #c20000;
   color: #fff;
   border-radius: 5px;

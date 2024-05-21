@@ -1,0 +1,90 @@
+
+@media (max-width: 500px) {
+
+    .header-banner{
+        height: 130px;
+    }
+
+    .header-banner-inner-content h1 {
+        font-size: 25px;
+    }
+
+
+
+    .our-journey{
+        max-height: none;
+        height: fit-content;
+
+    }
+
+
+    .journey-container{
+        flex-direction: column-reverse;
+    }
+
+    .journey-right{
+        width: 100%;
+        height: 20%;
+        padding: 20px;
+    }
+
+    .journey-image{
+        min-height: 0px;
+        border-radius: 20px;
+        height: 140px;
+    }
+
+    .journey-left{
+        width: 100%;
+        height: 80%;
+        padding: 20px;
+    }
+
+    .inner-content p{
+        font-size: 17px
+    }
+
+    .features-section{
+        padding: 0px;
+        height: fit-content;
+    }
+
+    .features-title{
+        padding: 20px;
+    }
+
+    .features-title h1{
+        font-size: 25px;
+    }
+
+    .features-row{
+        flex-direction: column;
+        gap: 13px;
+    }
+
+    .features{
+        width: 100%;
+    }
+
+
+
+    .faculties{
+        height: fit-content;
+    }
+
+    .faculties-title{
+        padding: 20px;
+        text-align: left;
+    }
+
+
+    .faculties-title h5{
+        font-size: 16px;
+    }
+
+    .faculties-title h2{
+        font-size: 25px;
+    }
+
+
+}
