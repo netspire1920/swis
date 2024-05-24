@@ -32,9 +32,30 @@
   <!-- custom CSS -->
   <link rel="stylesheet" href="CSS/style.css" />
   <link rel="stylesheet" href="CSS/responsive.css" />
+
+  <script>
+    var preloader = document.getElementById("loader");
+
+    function loader {
+      preloader.style.opacity = "0";
+    }
+  </script>
 </head>
 
-<body>
+<body onload="loader()">
+
+  <!-- Loader -->
+  <!-- <div class="loader" id="loader">
+  <div class="loading-wave">
+    <div class="loading-bar"></div>
+    <div class="loading-bar"></div>
+    <div class="loading-bar"></div>
+    <div class="loading-bar"></div>
+  </div>
+  </div> -->
+<!-- Loader End    -->
+
+
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg  bg-light fixed-top">
     <div class="container">
@@ -62,7 +83,7 @@
               <a class="nav-link" href="Events.html">Events</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Academics">Academics</a>
+              <a class="nav-link" href="Academics.html">Academics</a>
             </li>
             <li class="nav-item">
               <a class="nav-link btn btn-primary nav-btn" href="Contact.html" >Enquire Now</a>
