@@ -33,26 +33,20 @@
   <link rel="stylesheet" href="CSS/style.css" />
   <link rel="stylesheet" href="CSS/responsive.css" />
 
-  <script>
-    var preloader = document.getElementById("loader");
 
-    function loader {
-      preloader.style.opacity = "0";
-    }
-  </script>
 </head>
 
 <body onload="loader()">
 
   <!-- Loader -->
-  <!-- <div class="loader" id="loader">
+  <div class="loader" id="loader">
   <div class="loading-wave">
     <div class="loading-bar"></div>
     <div class="loading-bar"></div>
     <div class="loading-bar"></div>
     <div class="loading-bar"></div>
   </div>
-  </div> -->
+  </div>
 <!-- Loader End    -->
 
 
@@ -490,6 +484,14 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
   <!-- End -->
   <script src="script.js"></script>
+  <script>
+    var preloader = document.getElementById("loader");
+  
+    function loader(){
+      preloader.style.display = "none";
+    }
+  </script>
+  
 </body>
 
 </html>
